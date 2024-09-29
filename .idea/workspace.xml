@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4175bc05-f314-4858-ae48-67f54292357f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/vgc/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/api/splash.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/api/splash.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/api/store.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/bloc/data/data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/bloc/data/data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/bloc/screen/data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/bloc/screen/data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/bloc/storage/data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/bloc/storage/data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/errors/custom_error.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/errors/custom_error.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/models/coffee.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/models/coffee.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/routes/routers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/routes/routers.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/screens/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/screens/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/screens/screens.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/screens/screens.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/screens/splash.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/widgets/custom_page_view.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/widgets/saved_pictures.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/widgets/saved_pictures.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/widgets/snack_bar_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/widgets/snack_bar_dialog.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/lib/widgets/widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/lib/widgets/widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/logos/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/macos/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgc/windows/runner/runner.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/vgc/windows/runner/runner.exe.manifest" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2miv7vQLvwmaz2dBIBZykueLouT" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "application.passwordSafe"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4175bc05-f314-4858-ae48-67f54292357f" name="Changes" comment="" />
+      <created>1727572060187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727572060187</updated>
+      <workItem from="1727572060190" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
