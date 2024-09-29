@@ -13,7 +13,7 @@ class SavedPictures extends StatelessWidget {
       var files = state["files"];
       if (files == null) {
         return const Center(
-          child: Text("No saved pictures"),
+          child: Text("No saved pictures"), 
         );
       }
       return GridView.builder(
