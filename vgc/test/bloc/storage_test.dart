@@ -1,7 +1,6 @@
 import 'package:test/test.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:vgc/bloc/storage/data.dart';
-import 'package:vgc/bloc/storage/event.dart';
+import 'package:vgc/bloc/bloc.dart';
 
 void main() {
   group(StorageBloc, () {

@@ -1,9 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:vgc/models/coffee.dart';
 import 'package:flutter/material.dart';
-
-import '../bloc/data/data.dart';
-import '../bloc/data/event.dart';
+import '../bloc/bloc.dart';
+import '../models/models.dart';
 import 'widget.dart';
 
 class CustomPageView extends StatelessWidget {
@@ -50,6 +48,5 @@ class CustomPageView extends StatelessWidget {
         }
       },
     );
-    // return
   }
 }

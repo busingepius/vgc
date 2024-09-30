@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:mocktail/mocktail.dart';
-import 'package:vgc/services/random.dart';
-import 'package:vgc/errors/custom_error.dart';
+import 'package:vgc/errors/errors.dart';
+import 'package:vgc/services/services.dart';
 
 class MockClient extends Mock implements http.Client {}
 

@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:vgc/bloc/storage/data.dart';
-import 'package:vgc/bloc/data/data.dart';
+import 'package:vgc/bloc/bloc.dart';
 import 'package:vgc/widgets/widget.dart';
 
 class MockDataBloc extends Mock implements DataBloc {}

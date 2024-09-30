@@ -1,8 +1,6 @@
-
 import 'package:test/test.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:vgc/bloc/data/data.dart';
-import 'package:vgc/bloc/data/event.dart';
+import 'package:vgc/bloc/bloc.dart';
 
 void main() {
   group(DataBloc, () {

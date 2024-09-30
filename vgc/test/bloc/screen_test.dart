@@ -1,7 +1,6 @@
 import 'package:test/test.dart';
 import 'package:bloc_test/bloc_test.dart';
-import 'package:vgc/bloc/screen/data.dart';
-import 'package:vgc/bloc/screen/event.dart';
+import 'package:vgc/bloc/bloc.dart';
 
 void main() {
   group(ScreenBloc, () {

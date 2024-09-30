@@ -1,14 +1,7 @@
-import 'package:vgc/bloc/data/data.dart';
-import 'package:vgc/widgets/widget.dart';
-
+import '../widgets/widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../bloc/data/event.dart';
-import '../bloc/screen/data.dart';
-import '../bloc/screen/event.dart';
-import '../bloc/storage/data.dart';
-import '../bloc/storage/event.dart';
+import '../bloc/bloc.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

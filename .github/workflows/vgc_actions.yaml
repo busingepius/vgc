@@ -1,4 +1,4 @@
-name: Flutter Test
+name: Flutter CI/CD
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  flutter-test:
+  vgc-CI/CD:
     runs-on: ubuntu-latest
 
     steps:
