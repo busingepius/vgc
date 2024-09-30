@@ -18,28 +18,23 @@ Before running the project, ensure you have the following installed on your mach
 
 If your project interacts with a backend API, ensure that you have the following installed:
 
-4. **Node.js**: Download from [Node.js Official Site](https://nodejs.org/en/download/) (for running any backend services).
-5. **Docker** (Optional): Download from [Docker Official Site](https://docs.docker.com/get-docker/) to run backend services inside containers.
+4. **Docker** (Optional): Download from [Docker Official Site](https://docs.docker.com/get-docker/) to run inside containers.
 
 ## Setup Instructions
 
 ### 1. Clone the repository
+To clone the project from the git repository and navigate into the project folder
 ```bash
-git clone <repository_url>
-cd <project_directory>
+git clone "https://github.com/busingepius/vgc"
+cd vgc
 ```
 
 ### 2. Install Flutter dependencies
 Inside the project directory, run the following command to install the required dependencies:
-```bash
-flutter pub get
-```
+First navigate to flutter project root `cd vgc` then run `flutter pub get`
 
 ### 3. Verify Flutter installation
 Run `flutter doctor` to ensure your Flutter installation is complete and to check for any missing dependencies:
-```bash
-flutter doctor
-```
 
 Resolve any issues reported by `flutter doctor` before proceeding.
 
@@ -60,32 +55,14 @@ Resolve any issues reported by `flutter doctor` before proceeding.
     flutter run
     ```
 
-### 5. Running Backend API (Optional)
-
-If the app interacts with an API, follow the API’s README instructions to run the backend services locally. Typically, the steps are as follows:
-
-1. Navigate to the API directory:
-    ```bash
-    cd api
-    ```
-2. Install dependencies (if using Node.js):
-    ```bash
-    npm install
-    ```
-3. Run the API:
-    ```bash
-    npm start
-    ```
-
-You can also run the backend service inside a Docker container if applicable. Refer to the API’s documentation.
 
 ## Folder Structure
 
-Here’s an overview of the folder structure:
+Here’s an overview of the folder structure for flutter app:
 
 ```
 /lib
-                     # Main source code for the application
+    /main                # Main source code for the application
     /screens          # Screens for various views in the app
     /widgets          # Reusable UI components
     /models           # Data models
@@ -102,18 +79,6 @@ To run the tests for the project, use the following command:
 ```bash
 flutter test
 ```
-
-## Docker (For Backend, Optional)
-
-If the project contains backend services running on Docker, follow these steps to start the services:
-
-1. Navigate to the root of the project where the `docker-compose.yml` is located.
-2. Run the following command to start the containers:
-    ```bash
-    docker-compose up
-    ```
-
-This will start the API and any other necessary services for the app.
 
 ## Troubleshooting
 
@@ -134,4 +99,3 @@ This will start the API and any other necessary services for the app.
 
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Dart Language Documentation](https://dart.dev/guides)
-- [Official Node.js Guide](https://nodejs.org/en/docs/)
