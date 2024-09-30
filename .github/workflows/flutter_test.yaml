@@ -1,0 +1,37 @@
+name: Flutter Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  flutter-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.24.3"
+
+        # Step 3: Change to Flutter project directory (if it's one folder deep)
+      - name: Change directory to Flutter project
+        working-directory: ./vgc # Replace with your actual folder name
+        run: echo "Changed working directory to my_flutter_app"
+
+      # Step 4: Install dependencies
+      - name: Install dependencies
+        working-directory: ./vgc
+        run: flutter pub get
+
+      # Step 5: Run Flutter tests
+      - name: Run Flutter tests
+        working-directory: ./vgc
+        run: flutter test
