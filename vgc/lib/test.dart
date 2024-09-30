@@ -1,22 +1,26 @@
-import 'dart:convert';
 
-import 'package:http/http.dart' as http;
+// TODO: This works
+  // testWidgets('displays "No image to show" when no file is provided',
+  //     (WidgetTester tester) async {
+  //   // Arrange
+  //   when(() => mockDataBloc.state).thenReturn({"file": null});
+  //   when(() => mockDataBloc.stream)
+  //       .thenAnswer((_) => Stream.value({"file": null}));
 
-void main() async {
-  Future<Map<String, String>> getRandomPicture() async {
-    final url = Uri.parse('https://coffee.alexflipnote.dev/random.json');
+  //   // Act
+  //   await tester.pumpWidget(
+  //     MaterialApp(
+  //       home: BlocProvider<DataBloc>(
+  //         create: (_) => mockDataBloc,
+  //         child: BlocProvider<StorageBloc>(
+  //           create: (_) => mockStorageBloc,
+  //           child: const CustomPageView(),
+  //         ),
+  //       ),
+  //     ),
+  //   );
 
-    try {
-      var response = await http.get(url);
-      if (response.statusCode == 200) {
-        return jsonDecode(response.body);
-      } else {
-        throw Exception("no data returned");
-      }
-    } catch (e) {
-      throw Exception(e);
-    }
-  }
-
-  await getRandomPicture();
-}
+  //   // Assert
+  //   expect(find.text("No image to show"), findsOneWidget);
+  // });
+  // TODO: End here

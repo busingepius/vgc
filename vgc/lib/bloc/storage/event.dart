@@ -3,8 +3,8 @@ abstract class StorageEvent {
 }
 
 class WriteEvent extends StorageEvent {
-  String url;
-  WriteEvent(this.url);
+  final String url;
+  const WriteEvent(this.url);
 }
 
 class ReadEvent extends StorageEvent {

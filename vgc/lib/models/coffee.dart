@@ -1,12 +1,14 @@
 class Coffee {
-  final String? image;
+   String? image;
 
-  Coffee({
+  Coffee({required this.image});
+
+  Coffee.withImage({
     required this.image,
   });
 
   static Coffee fromJson(Map<dynamic, dynamic> json) {
-    return Coffee(
+    return Coffee.withImage(
       image: json["file"],
     );
   }

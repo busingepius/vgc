@@ -1,6 +1,4 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:vgc/bloc/storage/data.dart';
-import 'package:vgc/bloc/storage/event.dart';
 import 'package:vgc/models/coffee.dart';
 import 'package:flutter/material.dart';
 
@@ -36,48 +34,12 @@ class CustomPageView extends StatelessWidget {
                     children: [
                       const Positioned.fill(child:  Center(child: Text("loading ...."))),
                       Positioned.fill(
-                        child: Image.network(
-                          coffee.image!,
-                          fit: BoxFit.cover,
-                          errorBuilder: (context, error, stackTrace) {
-                            return Image.asset("images/logos/logo.png",
-                                scale: 2.2,);
-                          },
-                          loadingBuilder: (
-                            BuildContext context,
-                            Widget child,
-                            ImageChunkEvent? loadingProgress,
-                          ) {
-                            if (loadingProgress == null) return child;
-                            return Center(
-                              child: CircularProgressIndicator(
-                                value: loadingProgress.expectedTotalBytes !=
-                                        null
-                                    ? loadingProgress.cumulativeBytesLoaded /
-                                        loadingProgress.expectedTotalBytes!
-                                    : null,
-                              ),
-                            );
-                          },
-                        ),
+                        child: CustomImage(image: coffee.image!),
                       ),
                       Positioned(
                         right: 5.0,
                         top: 5.0,
-                        child: GestureDetector(
-                          onTap: () => BlocProvider.of<StorageBloc>(context)
-                              .add(WriteEvent(coffee.image!)),
-                          child: Container(
-                            padding: const EdgeInsets.all(5.0),
-                            decoration: BoxDecoration(
-                                color: Colors.brown,
-                                borderRadius: BorderRadius.circular(20)),
-                            child: const Icon(
-                              Icons.favorite_border,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
+                        child: SaveFavImage(image:coffee.image!),
                       ),
                     ],
                   ),

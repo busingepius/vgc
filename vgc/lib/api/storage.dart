@@ -7,7 +7,7 @@ import '../errors/errors.dart';
 
 const String folderName = "vgc";
 
-Future<String> _getFolderPath() async {
+Future<String> getFolderPath() async {
   try {
     final documentsDir = await getApplicationDocumentsDirectory();
     final folderPath = p.join(documentsDir.path, folderName);
@@ -24,7 +24,7 @@ Future<String> _getFolderPath() async {
 Future<void> writeData(String url) async {
   try {
     var response = await http.get(Uri.parse(url));
-    final folderPath = await _getFolderPath();
+    final folderPath = await getFolderPath();
     final filePath = p.join(folderPath, p.basename(url));
     final file = File(filePath);
     await file.writeAsBytes(response.bodyBytes);
@@ -34,7 +34,7 @@ Future<void> writeData(String url) async {
 }
 
 Future<List<Map<String, String>>> readAllFiles() async {
-  final folderPath = await _getFolderPath();
+  final folderPath = await getFolderPath();
   final folder = Directory(folderPath);
   List<Map<String, String>> fileContents = [];
 
