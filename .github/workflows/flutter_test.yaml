@@ -23,15 +23,15 @@ jobs:
 
         # Step 3: Change to Flutter project directory (if it's one folder deep)
       - name: Change directory to Flutter project
-        working-directory: ./vgc # Replace with your actual folder name
+        working-directory: ./gvgc # Replace with your actual folder name
         run: echo "Changed working directory to my_flutter_app"
 
       # Step 4: Install dependencies
       - name: Install dependencies
-        working-directory: ./vgc
+        working-directory: ./gvgc
         run: flutter pub get
 
       # Step 5: Run Flutter tests
       - name: Run Flutter tests
-        working-directory: ./vgc
+        working-directory: ./gvgc
         run: flutter test
