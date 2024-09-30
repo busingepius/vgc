@@ -1,4 +1,4 @@
-import 'package:vgc/api/random.dart';
+import 'package:vgc/services/random.dart';
 import 'package:vgc/bloc/data/event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;

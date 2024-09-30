@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../api/storage.dart';
+import '../../services/storage.dart';
 import '../../errors/errors.dart';
 import 'event.dart';
 

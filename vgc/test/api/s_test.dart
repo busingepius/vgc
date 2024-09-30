@@ -5,7 +5,7 @@ import 'package:mocktail/mocktail.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart'; // For WidgetsFlutterBinding
-import 'package:vgc/api/storage.dart';
+import 'package:vgc/services/storage.dart';
 import 'package:vgc/errors/errors.dart';
 
 // Mock classes
