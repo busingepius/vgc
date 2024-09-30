@@ -121,12 +121,12 @@ flutter test
 - The following were taken from an emulated iOS device
 <table>
   <tr>
-    <td>Loading the images</td>
+     <td>view of the icon</td>
      <td>load Random Pictures</td>
      <td>A view of the saved images</td>
   </tr>
   <tr>
-    <td><img src="./images/screenshoots/ios/image_2.png" width=270 height=480></td>
+    <td><img src="./images/screenshoots/ios/image_1.png" width=270 height=480></td>
     <td><img src="./images/screenshoots/ios/image_1.png" width=270 height=480></td>
     <td><img src="./images/screenshoots/ios/image_3.png" width=270 height=480></td>
   </tr>
