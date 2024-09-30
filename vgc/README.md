@@ -93,7 +93,37 @@ flutter test
     flutter pub get
     ```
 
-3. Ensure all prerequisites such as the SDK, emulators, and backend services are properly installed.
+3. Ensure all prerequisites such as the SDK, emulators, and any other services are properly installed.
+
+## Screenshot images for iOS and android
+- The following were taken from a physial android device
+<table>
+  <tr>
+    <td>Loading the app with it contains app icon and splash screen</td>
+     <td>Showing and loading Random Pictures</td>
+     <td>A view of the saved images</td>
+  </tr>
+  <tr>
+    <td><img src="./images/screenshoots/android/image_1.jpg" width=270 height=480></td>
+    <td><img src="./images/screenshoots/android/image_2.jpg" width=270 height=480></td>
+    <td><img src="./images/screenshoots/android/image_3.jpg" width=270 height=480></td>
+  </tr>
+ </table>
+
+- The following were taken from an emulated iOS device
+<table>
+  <tr>
+    <td>Loading the images</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="./images/screenshoots/ios/image_2.png" width=270 height=480></td>
+    <td><img src="./images/screenshoots/ios/image_1.png" width=270 height=480></td>
+    <td><img src="./images/screenshoots/ios/image_3.png" width=270 height=480></td>
+  </tr>
+ </table>
+
 
 ## Resources
 
