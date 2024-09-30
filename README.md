@@ -1,8 +1,10 @@
 ## VERY GOOD COFFEE
 
-If you are looking for running the app locally see PrerequisiteGuide.md
+If you are looking for running the app locally see [PrerequisiteGuide README](./PrerequisiteGuide.md)
 
-#### Running CodeSpace
+#### To Start the Flutter App in the Github codespace
+
+The necessary `.devcontainer` configuration file is already provided for develoment in containers
 
 1. Click `Code` at the top right of the repo
 2. Click the `CodeSpace` tab
@@ -21,6 +23,18 @@ If you are looking for running the app locally see PrerequisiteGuide.md
 
 ![img_3.png](img_3.png)
 
-#### Start the Flutter App in the codespace
-- [CodeSpaces README](./README.md)   
-- [Flutter README](./README.md)
+6. Navigate into vgc project folder to run flutter specific commands. Run `cd vgc`
+
+7. Install and update dependencies. Run the `flutter pub get`
+
+
+#### The Flutter App on the docker container local machine. Follow the steps provided
+
+
+#### The Flutter App on the local machine. Follow the steps provided
+
+- [PrerequisiteGuide README](./PrerequisiteGuide.md)
+
+#### To RUN, BUILD, TEST, e.t.c., Follow the steps provided
+
+- [Flutter README](./vgc/README.md)
