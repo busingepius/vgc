@@ -1,4 +1,4 @@
-name: Flutter CI/CD
+name: Flutter Actions
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  vgc-CI/CD:
+  flutter-actions:
     runs-on: ubuntu-latest
 
     steps:
