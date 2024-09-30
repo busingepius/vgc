@@ -9,19 +9,19 @@ The necessary `.devcontainer` configuration file is already provided for develom
 1. Click `Code` at the top right of the repo
 2. Click the `CodeSpace` tab
 
-![img.png](img.png)
+![Codespace 1](./vgc/images/codespaces/image_1.png)
 
 3. Click `+` to create a codespace on main
 
-![img_1.png](img_1.png)
+![Codespace 2](./vgc/images/codespaces/image_2.png)
 
 4. Observe the cloud workspace starting up. Note: this process should take around 2 minutes
 
-![img_2.png](img_2.png)
+![Codespace 3](./vgc/images/codespaces/image_3.png)
 
 5. Once it is complete you should be able to view the repo
 
-![img_3.png](img_3.png)
+![Codespace 4](./vgc/images/codespaces/image_5.png)
 
 6. Navigate into vgc project folder to run flutter specific commands. Run `cd vgc`
 
@@ -30,11 +30,16 @@ The necessary `.devcontainer` configuration file is already provided for develom
 
 #### The Flutter App on the docker container local machine. Follow the steps provided
 
+1. Open the project in a devcontainer and wait for it to set up fully
+
+2. Navigate into vgc project folder to run flutter specific commands. Run `cd vgc`
+
+3. Install and update dependencies. Run the `flutter pub get`
 
 #### The Flutter App on the local machine. Follow the steps provided
 
 - [PrerequisiteGuide README](./PrerequisiteGuide.md)
 
-#### To RUN, BUILD, TEST, e.t.c., Follow the steps provided
+#### To RUN, TEST, e.t.c., Follow the steps provided
 
 - [Flutter README](./vgc/README.md)

@@ -4,7 +4,7 @@ This guide will walk you through how to install and verify the required tools fo
 
 Please complete this guide prior to the interview. Total completion time is usually no more than one hour. This can vary based on how many tools are already installed on your machine.
 
-You'll need to be able to run a **Flutter app** and a **backend API** (optional if applicable) on your local machine in order to complete the coding exercise.
+You'll need to be able to run a **Flutter app** on your local machine in order to complete the coding exercise.
 
 Formatted `text like this` represents a command to run in your terminal.
 
@@ -47,9 +47,6 @@ flutter doctor
 ```
 This will display any missing dependencies or configuration steps for your system.
 
-### 3) Install NPM (if using a backend API)
-If your Flutter app interacts with an API built using Node.js, you might need to install NPM to run the backend.
-
 #### Mac
 1. Install Homebrew: https://docs.brew.sh/Installation
 2. Run the following commands:
@@ -63,8 +60,8 @@ If your Flutter app interacts with an API built using Node.js, you might need to
 1. Download and install Node.js: https://nodejs.org/en/download/
 2. Follow the installation steps and accept the "Automatically install necessary tools" option.
 
-### 4) Install Docker (optional, for backend API setup)
-You may need Docker for running any backend API that the Flutter app might communicate with.
+### 3) Install Docker (optional)
+You may need Docker for running the Flutter app in container.
 
 1. Download and install Docker from here: [Docker installation](https://docs.docker.com/get-docker/).
 
@@ -78,8 +75,7 @@ You may need Docker for running any backend API that the Flutter app might commu
     flutter run
     ```
 
-For further instructions, refer to the [README](./README.md) of your project.
+For further instructions, refer to the [README](./vgc/README.md) of your project.
 
-------------------------------------------------------------------------------------------
 
 
