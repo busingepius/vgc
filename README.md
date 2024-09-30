@@ -21,7 +21,7 @@ The necessary `.devcontainer` configuration file is already provided for develom
 
 5. Once it is complete you should be able to view the repo
 
-![Codespace 4](./vgc/images/codespaces/image_5.png)(./vgc/images/codespaces/image_5.png)
+![Codespace 4](./vgc/images/codespaces/image_5.png)![Codespace 4](./vgc/images/codespaces/image_5.png)
 
 6. Navigate into vgc project folder to run flutter specific commands. Run `cd vgc`
 
