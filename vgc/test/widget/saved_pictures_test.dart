@@ -18,7 +18,7 @@ void main() {
         .thenAnswer((_) async {});
   });
 
-  testWidgets('displays "No saved pictures" when files are null',
+  testWidgets('test display of widget',
       (WidgetTester tester) async {
     when(() => mockStorageBloc.state).thenReturn({"files": null});
     when(() => mockStorageBloc.stream)
@@ -36,7 +36,7 @@ void main() {
     expect(find.text("No saved pictures"), findsOneWidget);
   });
 
-  testWidgets('displays GridView when files are present',
+  testWidgets('test grid view available',
       (WidgetTester tester) async {
     var testFilePath = "test/path/image.jpg";
     when(() => mockStorageBloc.state).thenReturn({

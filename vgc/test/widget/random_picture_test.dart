@@ -6,7 +6,6 @@ import 'package:vgc/bloc/storage/data.dart';
 import 'package:vgc/bloc/data/data.dart';
 import 'package:vgc/widgets/widget.dart';
 
-// Mocks for the blocs
 class MockDataBloc extends Mock implements DataBloc {}
 
 class MockStorageBloc extends Mock implements StorageBloc {}
@@ -19,21 +18,17 @@ void main() {
     mockDataBloc = MockDataBloc();
     mockStorageBloc = MockStorageBloc();
 
-    // Mocking close methods to avoid errors
     when(() => mockDataBloc.close()).thenAnswer((_) async {});
     when(() => mockStorageBloc.close()).thenAnswer((_) async {});
   });
 
   
-// TODO: This works
-  testWidgets('displays "No image to show" when no file is provided',
+  testWidgets('test display of widget',
       (WidgetTester tester) async {
-    // Arrange
     when(() => mockDataBloc.state).thenReturn({"file": null});
     when(() => mockDataBloc.stream)
         .thenAnswer((_) => Stream.value({"file": null}));
 
-    // Act
     await tester.pumpWidget(
       MaterialApp(
         home: BlocProvider<DataBloc>(
@@ -46,8 +41,6 @@ void main() {
       ),
     );
 
-    // Assert
     expect(find.text("No image to show"), findsOneWidget);
   });
-  // TODO: End here
 }

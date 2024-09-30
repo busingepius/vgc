@@ -20,7 +20,6 @@ void main() {
       build: () => storageBloc,
       act: (bloc) => bloc.add(const WriteEvent("")),
       expect: () => [
-        // TODO: find the result of these functions
         predicate((state) {
           if (state is Map && state.containsKey('file') ||
               state is Map && state.containsKey('message')) {
@@ -37,7 +36,6 @@ void main() {
       act: (bloc) => bloc.add(const ReadEvent()),
       expect: () => [
         predicate((state) {
-          // TODO: find the result of these functions
           if (state is Map && state.containsKey('file') ||
               state is Map && state.containsKey('message')) {
             return true;

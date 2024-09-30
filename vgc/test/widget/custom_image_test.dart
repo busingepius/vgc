@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
@@ -10,7 +9,7 @@ void main() {
         cumulativeBytesLoaded: 100, expectedTotalBytes: 200));
   });
 
-  testWidgets('displays the image when loaded successfully',
+  testWidgets('test loaded successfully',
       (WidgetTester tester) async {
     const testImageUrl = 'https://example.com/image.jpg';
 

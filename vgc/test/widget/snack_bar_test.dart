@@ -3,9 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:vgc/widgets/widget.dart';
 
 void main() {
-  testWidgets('showCustomSnackBar displays SnackBar with correct message',
+  testWidgets('test snackbar showing',
       (WidgetTester tester) async {
-    // Build the test app with Scaffold to provide the context for the SnackBar
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(
@@ -24,15 +23,12 @@ void main() {
       ),
     );
 
-    // Tap the button to trigger the SnackBar
     await tester.tap(find.byType(ElevatedButton));
-    await tester.pump(); // Trigger a frame to show the SnackBar
+    await tester.pump(); 
 
-    // Verify the SnackBar is shown with the correct message
     expect(find.text('Test SnackBar'), findsOneWidget);
     expect(find.byType(SnackBar), findsOneWidget);
 
-    // Pump to let the SnackBar complete its show animation
     await tester.pumpAndSettle();
   });
 }
